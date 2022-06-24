@@ -7,11 +7,38 @@ nav{
 .judul{
     font-family: 'Poppins';
     font-weight: 700;
-    font-size: 28;
+    font-size: 28px;
     color: #243a73 !important;
 }
 
-img{
+.logo{
     height: 50px;
     width: 50px;
+}
+
+.input-group{
+    height: 40px;
+    width: 500px;
+}
+
+.iconSearch{
+    height: 20px;
+    width: 20px;
+}
+
+.form-control{
+    background-color: #E3E3E3;
+}
+
+.input-group-text{
+    background-color: var(--bs-blue);
+}
+
+.icon{
+    height: 40px;
+    width: 40px;
+}
+
+.iconCart{
+    margin-right: 30px;
 }
