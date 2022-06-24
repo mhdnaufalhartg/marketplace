@@ -1,0 +1,29 @@
+/*login.html css*/
+
+.img {
+  width: 500px;
+}
+
+.fw-normal {
+  color: var(--bs-darkBlue);
+}
+
+.form-label {
+  color: var(--bs-darkBlue);
+}
+
+.d-flex {
+  color: var(--bs-darkBlue);
+}
+
+.btn {
+  color: var(--bs-gray);
+  background-color: var(--bs-darkBlue);
+  width: 125px;
+}
+
+.register {
+  color: var(--bs-darkBlue);
+}
+
+/*end login.html css*/
