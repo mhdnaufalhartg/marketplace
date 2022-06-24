@@ -26,4 +26,11 @@
   color: var(--bs-darkBlue);
 }
 
+@media (min-width: 768px) {
+  .img {
+    width: 400px;
+    height: auto;
+  }
+}
+
 /*end login.html css*/
