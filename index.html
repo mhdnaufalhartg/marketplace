@@ -47,18 +47,34 @@
               class="icon iconCart"
             />
           </a>
-          <a class="nav-link" href="#">
-            <img
-              src="assets/icon/User_cicrle.svg"
-              alt="icon user"
-              class="icon"
-            />
-          </a>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href=""
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <img
+                src="assets/icon/User_cicrle.svg"
+                alt="icon user"
+                class="icon"
+              />
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Profile</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="login.html">Logout</a></li>
+            </ul>
+          </li>
         </div>
       </div>
     </nav>
     <!-- AKHIR NAVBAR -->
 
+    <!-- jquery -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
     <!-- JavaScript Bundle with Popper -->
     <script src="assets/js/bootstrap.min.js"></script>
   </body>
