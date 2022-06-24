@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 nav{
-    height: 65px;
+    height: 70px;
+}
+
+.judul{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 28;
+    color: #243a73 !important;
 }
 
 img{
