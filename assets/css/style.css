@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-/* nav{
+nav{
     height: 70px;
-} */
+}
 
 .judul{
     font-family: 'Poppins';
@@ -18,7 +18,7 @@
 
 .input-group{
     height: 40px;
-    width: 500px;
+    width: 450px;
 }
 
 .iconSearch{
@@ -31,7 +31,7 @@
 }
 
 .btn{
-    background-color: var(--bs-blue) !important;
+    background-color: #0d3fb2 !important;
 }
 
 .icon{
