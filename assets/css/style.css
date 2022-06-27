@@ -1,14 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    font-family: var(--font);
+}
 
-nav{
-    height: 70px;
+.navbar{
+    background-color: #fff;
 }
 
 .judul{
-    font-family: 'Poppins';
-    font-weight: 700;
-    font-size: 28px;
-    color: #243a73 !important;
+    font-family: var(--font);
+    font-weight: var(--h1-fontweight);
+    font-size: var(--h1-font-size);
+    color: var(--bs-darkBlue) !important;
 }
 
 .logo{
@@ -27,11 +29,11 @@ nav{
 }
 
 .form-control{
-    background-color: #E3E3E3;
+    background-color: var(--bs-smokeGray);
 }
 
 .btn{
-    background-color: #0d3fb2 !important;
+    background-color: var(--bs-blue) !important;
 }
 
 .icon{
@@ -41,4 +43,39 @@ nav{
 
 .iconCart{
     margin-right: 30px;
+}
+
+/* carousel */
+.imgCarousel{
+    width: 100%;
+    height: 90vh;
+    /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)); */
+}
+
+/* products */
+h3{
+    font-size: 32px;
+    font-weight: var(--h1-fontweight);
+    color: var(--bs-darkBlue);
+}
+
+.card{
+    box-shadow: 10px 9px 13px rgba(0, 0, 0, 0.25);
+    border-radius: 16px !important;
+}
+
+.card-body{
+    color: var(--bs-darkBlue);
+    
+}
+
+.linkProduct{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: var(--bs-darkBlue);
+    font-weight: 600;
+}
+
+.linkProduct:hover{
+    color: var(--bs-darkBlue);
 }
