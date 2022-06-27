@@ -4,10 +4,6 @@
 
 /*login.html css*/
 
-.img {
-  width: 500px;
-}
-
 .fw-normal {
   color: var(--bs-darkBlue);
 }
@@ -41,7 +37,8 @@
 
 /* success checkout.html css */
 .illustration_success {
-  width: 300px;
+  width: 430px;
+  /* height: 420px; */
   /* margin: 70px 0 0 0; */
 }
 
