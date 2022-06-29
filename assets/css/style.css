@@ -2,10 +2,6 @@
     font-family: var(--font);
 }
 
-nav{
-    height: 65px;
-}
-
 .navbar{
     background-color: #fff;
 }
@@ -41,8 +37,8 @@ nav{
 }
 
 .icon{
-    height: 35px;
-    width: 35px;
+    height: 38px;
+    width: 38px;
 }
 
 .iconCart{
@@ -73,10 +69,11 @@ h3{
 .linkProduct{
     text-decoration: none;
     font-size: 1.4rem;
-    color: var(--bs-darkBlue);
+    color: var(--bs-darkBlue) !important;
     font-weight: 600;
 }
 
-.linkProduct:hover{
-    color: var(--bs-blue);
+.prev{
+    height: 30px;
+    width: 30px;
 }
