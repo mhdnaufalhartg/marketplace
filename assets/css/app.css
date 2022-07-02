@@ -91,9 +91,8 @@ h3 {
   color: var(--bs-darkBlue) !important;
 }
 
-
 /* img login image */
-.img-login-regis{
+.img-login-regis {
   border-radius: 0 0 7.5rem 0;
 }
 
@@ -179,4 +178,84 @@ h3 {
 
 .card-img-top {
   height: 180px;
+}
+
+/* detail product */
+
+.img-detail {
+  width: 350px;
+  height: 470px;
+}
+
+.dividers3 {
+  background-color: var(--bs-darkBlue) !important;
+  width: 100%;
+  height: 5px;
+  margin-top: 5px;
+}
+
+.card2 {
+  width: 250px;
+  height: 260px;
+}
+
+.merah {
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.hitam {
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.kuning {
+  background-color: yellow;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.hijau {
+  background-color: green;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.tambah {
+  width: 40px;
+  height: 20px;
+  background-color: var(--bs-gray);
+}
+
+.kurang {
+  width: 40px;
+  height: 20px;
+  background-color: var(--bs-gray);
+}
+
+.himasi {
+  background-color: var(--bs-gray);
+}
+
+.himasiImg {
+  width: 50px;
+  height: 40px;
+}
+
+.iconBasket {
+  width: 30px;
+  height: 20px;
+}
+
+.deskripsi {
+  color: var(--bs-darkBlue);
+}
+
+.lorem {
+  color: var(--bs-darkBlue);
 }
