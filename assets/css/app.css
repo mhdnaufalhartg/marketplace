@@ -91,7 +91,6 @@ h3 {
   color: var(--bs-darkBlue) !important;
 }
 
-
 /* img login image */
 .img-login-regis{
   border-radius: 0 0 7.5rem 0;
@@ -114,7 +113,16 @@ h3 {
   }
 }
 
+.form-label-login-regis{
+  font-weight: 550;
+}
+
+.form-input-login-regis{
+  width: 30.75rem;
+}
+
 /*end login.html css*/
+
 
 /* success checkout.html css */
 .illustration_success {
