@@ -113,7 +113,17 @@ h3 {
   }
 }
 
+.form-label-login-regis{
+  font-weight: 550;
+}
+
+.form-input-login-regis{
+  width: 30vw;
+}
+
+
 /*end login.html css*/
+
 
 /* success checkout.html css */
 .illustration_success {
