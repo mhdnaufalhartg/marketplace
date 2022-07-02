@@ -91,6 +91,12 @@ h3 {
   color: var(--bs-darkBlue) !important;
 }
 
+
+/* img login image */
+.img-login-regis{
+  border-radius: 0 0 7.5rem 0;
+}
+
 /* .btnitems {
   color: var(--bs-gray) !important;
   background-color: var(--bs-darkBlue) !important;
