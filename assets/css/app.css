@@ -201,9 +201,6 @@ h3 {
 
 .text {
   color: var(--bs-darkBlue) !important;
-<<<<<<< HEAD
-}
-=======
 }
 
 .card-img-top {
@@ -289,4 +286,3 @@ h3 {
 .lorem {
   color: var(--bs-darkBlue);
 }
->>>>>>> 66381ed03f04f8022fb5a1cfa7ba7897664d8e2f
