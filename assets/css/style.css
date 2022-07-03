@@ -95,3 +95,8 @@
     font-size: var(--normal-fs);
     color: var(--bs-darkBlue);
   }
+
+  /* services */
+  .services{
+    padding-top: 4rem;
+  }
