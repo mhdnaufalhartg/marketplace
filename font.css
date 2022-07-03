@@ -3,6 +3,10 @@
 :root {
     --font: 'Poppins', sans-serif;
     --h1-fontweight: 700;
+<<<<<<< HEAD
     --h1-font-size: 24px;
     --normal-fs: 1.3rem;
+=======
+    --h1-font-size: 1.5rem;
+>>>>>>> 66381ed03f04f8022fb5a1cfa7ba7897664d8e2f
   }
