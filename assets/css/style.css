@@ -100,3 +100,12 @@
   .services{
     padding-top: 4rem;
   }
+
+  .services .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .services-img{
+    width: 80px;
+  }
