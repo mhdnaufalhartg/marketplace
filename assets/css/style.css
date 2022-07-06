@@ -42,7 +42,7 @@
   
   .btn {
     background-color: var(--bs-blue) !important;
-    color: var(--bs-gray) !important;
+    color: var(--bs-white) !important;
   }
   /* carousel */
   .imgCarousel {
@@ -108,4 +108,56 @@
 
   .services-img{
     width: 80px;
+  }
+
+  .services-title{
+    font-size: var(--normal-fs);
+    color: var(--bs-darkBlue);
+  }
+
+  .services-caption{
+    color: var(--bs-darkBlue);
+  }
+
+  /* contact */
+  .contact{
+    padding-top: 4rem;
+  }
+
+  .contact-subtitle{
+    margin-bottom: .8rem;
+    color: var(--bs-darkBlue);
+  }
+
+  .contact-info{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: var(--bs-darkBlue);
+    font-weight: 400;
+  }
+
+  .contact-img{
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* footer */
+  footer h5{
+    font-weight: 600;
+    color: var(--bs-darkBlue) !important;
+  }
+  footer .text-muted{
+    color: var(--bs-darkBlue) !important;
+  }
+
+  footer p{
+    color: var(--bs-darkBlue) !important;
+  }
+
+  @media (max-width: 768px) {
+    .contact-img {
+      margin-top: 80px;
+    }
   }
