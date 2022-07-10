@@ -45,8 +45,12 @@
     color: var(--bs-white) !important;
   }
   /* carousel */
+  .carousel{
+    margin-top: 76px;
+  }
+
   .imgCarousel {
-    height: 95vh;
+    height: 90vh;
     background-size: cover;
   }
   
@@ -101,6 +105,10 @@
     padding-top: 4rem;
   }
 
+  .title-services{
+    margin-bottom: 4rem;
+  }
+
   .services .col-lg-4 {
     margin-bottom: 1.5rem;
     text-align: center;
@@ -121,7 +129,8 @@
 
   /* contact */
   .contact{
-    padding-top: 4rem;
+    padding-top: 6rem;
+    padding-bottom: 4rem;
   }
 
   .contact-subtitle{
