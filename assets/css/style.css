@@ -169,7 +169,7 @@
   /* contact.html */
   .breadcrumb{
     margin-top: 3.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
   }
 
   .breadcrumb a{
@@ -183,6 +183,10 @@
   }
 
   /* contact-us */
+  .contact-us{
+    padding-bottom: 4rem;
+  }
+
   .contact-us h3{
     margin-bottom: 25px;
   }
@@ -206,7 +210,7 @@
   }
 
   .col-lg-4 p{
-    margin-bottom: 3.5rem;
+    margin-bottom: 2.5rem;
   }
 
   .group-contact{
@@ -225,6 +229,46 @@
   .img-contact{
     width: 300px;
   }
+
+  .contact-us .col-lg-8{
+    padding-top: 3rem;
+  }
+
+  .contact-us label{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--bs-darkBlue);
+  }
+  
+  .contact-us input{
+   border-radius: 16px;
+   padding: 12px 15px;
+  }
+
+  .contact-us textarea{
+    border-radius: 16px;
+    padding: 12px 15px;
+    resize: none;
+  }
+
+  .contact-us .btn{
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 16px;
+  }
+
+  ::placeholder{
+    color: var(--bs-darkBlue) !important;
+  }
+
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: var(--bs-darkBlue);
+   }
+   
+   ::-ms-input-placeholder { /* Microsoft Edge */
+    color: var(--bs-darkBlue);
+   }
+
 
   @media (max-width: 768px) {
     .contact-img {
