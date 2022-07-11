@@ -106,13 +106,6 @@ h3 {
   color: var(--bs-darkBlue) !important;
 }
 
-@media (min-width: 768px) {
-  .img {
-    width: 400px;
-    height: auto;
-  }
-}
-
 .form-label-login-regis {
   font-weight: 550;
 }
@@ -266,4 +259,45 @@ h3 {
 
 .lorem {
   color: var(--bs-darkBlue);
+}
+
+/* responsice */
+@media (max-width: 768px) {
+  .img {
+    width: 400px;
+    height: auto;
+  }
+
+  .img-detail {
+    width: 100px;
+    height: 150px;
+  }
+
+  .filter {
+    display: none;
+  }
+
+  .card {
+    margin-top: 7px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .cardMT {
+    margin-top: 15px;
+  }
+  .containerBreadcrumb {
+    margin-top: 80px;
+    margin-left: 20px;
+  }
+
+  .pagination {
+    margin-top: 7px;
+  }
+
+  .lorem {
+    font-size: 15px;
+    margin-left: 150px;
+    color: var(--bs-darkBlue);
+  }
 }
