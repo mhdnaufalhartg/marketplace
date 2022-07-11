@@ -282,6 +282,10 @@ h3 {
 
 /* responsice */
 @media (max-width: 768px) {
+  .cardFilter {
+    display: none;
+  }
+
   .img {
     width: 400px;
     height: auto;
