@@ -1,0 +1,87 @@
+
+/* check-out */
+ .check-out{
+    padding-bottom: 4rem;
+  }
+
+  .check-out h3{
+    margin-bottom: 25px;
+  }
+
+  .check-out .row{
+    /* background-color: #BFDAEC; */
+    border-radius: 16px;
+  }
+
+  .img-dbarang{
+    width: 75px;
+    height: 75px;
+  }
+
+    .check-out .col-lg-4{
+    background-color: var(--bs-blue);
+    border-radius: 16px;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    color: var(--bs-sec-text);
+  }
+
+  .col-lg-4 h4{
+    font-size: 1.6rem;
+    font-weight: var(--h1-fontweight);
+  }
+
+  /* label check out  */
+  .check-out label{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--bs-sec-text);
+  }
+
+  /* form control*/
+  .form-control {
+    background-color: var(--bs-smokeGray);
+  }
+
+  /* form select  */
+  .form-select {
+    background-color: var(--bs-smokeGray);
+  }
+
+    .check-out input{
+        border-radius: 16px;
+        padding: 12px 15px;
+    }
+
+
+    .check-out select{
+        border-radius: 16px;
+        padding: 12px 15px;
+    }
+
+
+  /* btn check-out */
+    .check-out .btn{
+        padding: 10px 30px;
+        font-size: 18px;
+        border-radius: 16px;
+    } 
+
+    .btn-check-out{
+        background-color: #47B5FF !important;
+    }
+
+  ::placeholder{
+    color: var(--bs-darkBlue) !important;
+  }
+
+  :-ms-input-placeholder { 
+    /* Internet Explorer 10-11 */
+    color: var(--bs-darkBlue);
+   }
+   
+   ::-ms-input-placeholder { 
+    /* Microsoft Edge */
+    color: var(--bs-darkBlue);
+    }
+
