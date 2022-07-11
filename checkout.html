@@ -77,111 +77,196 @@
     <!-- check-out -->
     <div class="container check-out">
 
+        <!-- row -->
+        <div class="row card-check-out">
+            <!-- bagian untuk list barang -->
+            <div class="col-md-8 list-barang">
+                <h4 class="judul-check-out-list-barang">List Barang</h4>
 
-        <div class="row shadow">
-            <div class="col-lg-8">
-                <h4 class="mb-4">Contact Information</h4>
-
-                <!-- row daftar barang -->
-                <div class="row dbarang1">
+                <!-- kolom untuk daftar barang per 1 jenis barang -->
+                <div class="row list-perbarang">
                     <!-- check box -->
-                    <div class="col-lg-1 mt-auto mb-auto">
-                        <input class="form-check-input mt-0" type="checkbox" value=""
-                            aria-label="Checkbox for following text input">
-                    </div>
-                    <!-- gambar -->
-                    <div class="col-md-2">
-                        <img src="assets/img/pencil.jpg" class="rounded float-start img-dbarang" alt="...">
-                    </div>
-                    <!-- text barang-->
-                    <div class="col">
-                        <div class="row" style="background: rgb(179, 63, 63);">
-                            <h4>Pensil</h4>
+                    <div class="col col-md-1">
+                        <div class="form-check">
+                            <input class=" form-check-input" type="checkbox" value="check" id="form2Example31" />
                         </div>
-                        <div class="row" style="background: rgb(166, 164, 110);">
-                            <p>
-                                Koperasi Himasi
+                    </div>
+
+                    <!-- gambar -->
+                    <div class="col col-md-1">
+                        <img src="assets/img/pencil.jpg" class="img-responsive  gambar-list-perbarang"
+                            alt="gambar pensil" srcset="">
+                    </div>
+
+                    <!-- desc with judul -->
+                    <div class="col col-md-2 dwj-perbarang">
+                        <div class="row">
+                            <h4 class="judul-perbarang">Pensil</h4>
+                        </div>
+                        <div class="row">
+                            <p class="deskripsi-perbarang">
+                                Alat Tulis
                             </p>
                         </div>
                     </div>
 
-
-                    <!-- btn tambah -->
-                    <div class="col">
-
+                    <!-- button tambah kurang -->
+                    <div class="col-md-2 my-auto btn-jumlah">
+                        + -
                     </div>
-
-                    <!-- btn harga -->
-                    <div class="col">
-                        <p>Rp.5000</p>
-                    </div>
-
 
                     <!-- harga -->
+                    <div class="col-md-2 my-auto ms-auto">
+                        <h4>Rp. 5000</h4>
+                    </div>
+                </div>
+
+                <!-- kolom untuk daftar barang per 2 jenis barang -->
+                <div class="row list-perbarang">
+                    <!-- check box -->
+                    <div class="col col-md-1">
+                        <div class="form-check">
+                            <input class=" form-check-input" type="checkbox" value="check" id="form2Example31" />
+                        </div>
+                    </div>
+
+                    <!-- gambar -->
+                    <div class="col col-md-1">
+                        <img src="assets/img/buku.jpg" class="img-responsive  gambar-list-perbarang" alt="gambar buku"
+                            srcset="">
+                    </div>
+
+                    <!-- desc with judul -->
+                    <div class="col col-md-2 dwj-perbarang">
+                        <div class="row">
+                            <h4 class="judul-perbarang">BUku</h4>
+                        </div>
+                        <div class="row">
+                            <p class="deskripsi-perbarang">
+                                Perlengkapan Alat Tulis
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- button tambah kurang -->
+                    <div class="col-md-2 my-auto btn-jumlah">
+                        + -
+                    </div>
+
+                    <!-- harga -->
+                    <div class="col-md-2 my-auto ms-auto">
+                        <h4>Rp. 5000</h4>
+                    </div>
+                </div>
+
+                <!-- kolom untuk daftar barang per 3 jenis barang -->
+                <div class="row list-perbarang">
+                    <!-- check box -->
+                    <div class="col col-md-1">
+                        <div class="form-check">
+                            <input class=" form-check-input" type="checkbox" value="check" id="form2Example31" />
+                        </div>
+                    </div>
+
+                    <!-- gambar -->
+                    <div class="col col-md-1">
+                        <img src="assets/img/kuaspng.png" class="img-responsive  gambar-list-perbarang"
+                            alt="gambar kuas" srcset="">
+                    </div>
+
+                    <!-- desc with judul -->
+                    <div class="col col-md-2 dwj-perbarang">
+                        <div class="row">
+                            <h4 class="judul-perbarang">Kuas</h4>
+                        </div>
+                        <div class="row">
+                            <p class="deskripsi-perbarang">
+                                Perlengkapan Alat Seni
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- button tambah kurang -->
+                    <div class="col-md-2 my-auto btn-jumlah">
+                        + -
+                    </div>
+
+                    <!-- harga -->
+                    <div class="col-md-2 my-auto ms-auto">
+                        <h4>Rp. 5000</h4>
+                    </div>
                 </div>
 
 
-
             </div>
 
-            <!-- bagian check out -->
-            <div class="col-lg-4 px-5">
-                <h4 class="mb-4">Check Out</h4>
 
-                <form class="row g-4">
-                    <div class="col-md-12">
-                        <label for="" class="form-label">Negara</label>
-                        <select class="form-select" aria-label="Default select example">
-                            <option selected>Pilih negara</option>
-                            <option value="1">Indonesia</option>
-                            <option value="2">Malaysia</option>
-                            <option value="3">Singapore</option>
-                        </select>
-                    </div>
-                    <!-- form kota -->
-                    <div class="col-md-6">
-                        <label for="" class="form-label">Kota</label>
-                        <select class="form-select" aria-label="Default select example">
-                            <option selected>Pilih Kota</option>
-                            <option value="1">Medan</option>
-                            <option value="2">Jakarta</option>
-                            <option value="3">Yogyakarta</option>
-                            <option value="3">Madura</option>
-                        </select>
-                    </div>
-                    <!-- end form kota -->
 
-                    <!-- form kode pos -->
-                    <div class="col-md-6">
-                        <label for="" class="form-label">Kode Pos</label>
-                        <input type="text" class="form-control" placeholder="Kode Pos">
-                    </div>
-                    <!-- end form kode pos -->
 
-                    <div class="col-md-12">
-                        <label for="" class="form-label">Payment Method</label>
-                        <select class="form-select" aria-label="Default select example">
-                            <option selected>Pilih Pembayaran</option>
-                            <option value="1">Gopay</option>
-                            <option value="2">Dana</option>
-                            <option value="3">Link Aja</option>
-                        </select>
-                    </div>
-                    <div class="col-md-12">
-                        <label for="" class="form-label">Nomor Tagihan</label>
-                        <input type="text" class="form-control" placeholder="08216316xxxx">
-                    </div>
-                    <div class="col-md-12">
-                        <label for="" class="form-label">Nama</label>
-                        <input type="name" class="form-control" placeholder="your name">
-                    </div>
+            <!-- bagian untuk pembayaran -->
+            <div class="col-md-4 check-out-section">
+                <h4 class="judul-check-out-section">Check Out Menu</h4>
 
-                    <div class="col-12">
-                        <button type="submit" class="btn btn-check-out float-end mb-4">PURCHASE</button>
-                    </div>
-                </form>
+                <!-- form -->
+                <div class="form">
+                    <form class="row g-4">
+                        <div class="col-md-12">
+                            <label for="" class="form-label">Negara</label>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Pilih negara</option>
+                                <option value="1">Indonesia</option>
+                                <option value="2">Malaysia</option>
+                                <option value="3">Singapore</option>
+                            </select>
+                        </div>
+                        <!-- form kota -->
+                        <div class="col-md-6">
+                            <label for="" class="form-label">Kota</label>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Pilih Kota</option>
+                                <option value="1">Medan</option>
+                                <option value="2">Jakarta</option>
+                                <option value="3">Yogyakarta</option>
+                                <option value="3">Madura</option>
+                            </select>
+                        </div>
+                        <!-- end form kota -->
+
+                        <!-- form kode pos -->
+                        <div class="col-md-6">
+                            <label for="" class="form-label">Kode Pos</label>
+                            <input type="text" class="form-control" placeholder="Kode Pos">
+                        </div>
+                        <!-- end form kode pos -->
+
+                        <div class="col-md-12">
+                            <label for="" class="form-label">Payment Method</label>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Pilih Pembayaran</option>
+                                <option value="1">Gopay</option>
+                                <option value="2">Dana</option>
+                                <option value="3">Link Aja</option>
+                            </select>
+                        </div>
+                        <div class="col-md-12">
+                            <label for="" class="form-label">Nomor Tagihan</label>
+                            <input type="text" class="form-control" placeholder="08216316xxxx">
+                        </div>
+                        <div class="col-md-12">
+                            <label for="" class="form-label">Nama</label>
+                            <input type="name" class="form-control" placeholder="your name">
+                        </div>
+
+                        <div class="col-md-12">
+                            <button type="submit" class="btn btn-check-out mb-4 col-md-12">PURCHASE</button>
+                        </div>
+                    </form>
+                </div>
             </div>
+
         </div>
+
+
     </div>
     <!-- ahir check out -->
 
