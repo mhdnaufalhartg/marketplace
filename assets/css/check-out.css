@@ -99,6 +99,11 @@
 .form-select{
   height: 50px;
   background-color: var(--bs-smokeGray);
+  color: var(--bs-darkBlue);
+}
+
+option{
+  color: var(--bs-darkBlue);
 }
 
 /* form input */
