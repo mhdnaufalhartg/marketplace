@@ -280,6 +280,14 @@ h3 {
   color: var(--bs-darkBlue);
 }
 
+.cards {
+  bottom: 100px;
+}
+
+.cards2 {
+  bottom: 20px;
+}
+
 /* responsice */
 @media (max-width: 768px) {
   .cardFilter {
@@ -306,6 +314,13 @@ h3 {
     margin-left: auto;
   }
 
+  .cards {
+    top: 5px;
+  }
+  .cards2 {
+    top: 5px;
+  }
+
   .cardMT {
     margin-top: 15px;
   }
@@ -315,7 +330,8 @@ h3 {
   }
 
   .pagination {
-    margin-top: 7px;
+    margin-top: 17px;
+    margin-right: 40px;
   }
 
   .lorem {
